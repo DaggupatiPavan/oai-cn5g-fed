@@ -12,7 +12,7 @@ oai-nrf:
   weight: 0
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: gitops2.jfrog.io/open5gs/nrf           ## The image will be pulled from dockerhub
+    repository: gitops2.jfrog.io/open5gs/nrf           ## The image will be pulled from dockerhub repo
     version: v1.4.27                                    ## The branch to be used to pull from dockerhub
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
