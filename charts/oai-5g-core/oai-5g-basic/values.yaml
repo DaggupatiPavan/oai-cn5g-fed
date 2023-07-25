@@ -86,7 +86,7 @@ oai-amf:
       create: false
       Ipadd: "172.21.6.94"
       Netmask: "22"
-      # #name inside the pod is hardcoded right now
+      # #name inside the pod is hardcoded right now of
       # name: "n2"
       ## If you do not have a gateway leave the field empty
       Gateway:
