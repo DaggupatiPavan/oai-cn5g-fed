@@ -13,7 +13,7 @@ oai-nrf:
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
     repository: gitops2.jfrog.io/open5gs/nrf           ## The image will be pulled from dockerhub repo
-    version: v1.4.24                                  ## The branch to be used to pull from dockerhub
+    version: v1.4.26
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -28,7 +28,7 @@ oai-udr:
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
     repository: gitops2.jfrog.io/open5gs/udr           ## The image will be pulled from dockerhub
-    version: v1.4.27                                    ## The branch to be used to pull from dockerhub
+    version: v1.4.26
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -43,7 +43,7 @@ oai-udm:
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
     repository: gitops2.jfrog.io/open5gs/udm           ## The image will be pulled from dockerhub
-    version: v1.4.27                                    ## The branch to be used to pull from dockerhub
+    version: v1.4.26
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -58,7 +58,7 @@ oai-ausf:
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
     repository: gitops2.jfrog.io/open5gs/ausf           ## The image will be pulled from dockerhub
-    version: v1.4.27                                    ## The branch to be used to pull from dockerhub
+    version: v1.4.26
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -73,7 +73,7 @@ oai-amf:
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
     repository: gitops2.jfrog.io/open5gs/amf           ## The image will be pulled from dockerhub
-    version: v1.4.27                                    ## The branch to be used to pull from dockerhub
+    version: v1.4.26
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -120,7 +120,7 @@ oai-spgwu-tiny:
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
     repository: gitops2.jfrog.io/open5gs/spgwu-tiny    ## The image will be pulled from dockerhub
-    version: v1.4.27                                    ## The branch to be used to pull from dockerhub
+    version: v1.4.26
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -215,7 +215,7 @@ oai-smf:
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
     repository: gitops2.jfrog.io/open5gs/smf           ## The image will be pulled from dockerhub
-    version: v1.4.27                                    ## The branch to be used to pull from dockerhub
+    version: v1.4.26
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
