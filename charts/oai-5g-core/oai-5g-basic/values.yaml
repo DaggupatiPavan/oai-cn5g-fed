@@ -12,7 +12,7 @@ oai-nrf:
   weight: 0
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: gitops3.jfrog.io/open5gs/nrf           ## The image will be pulled from dockerhub repo  gitops3.jfrog.io/open5gs/spgwu-tiny:v1.4.23
+    repository: pavan176/oai-nrf:v1.2.6           ## The image will be pulled from dockerhub repo  gitops3.jfrog.io/open5gs/spgwu-tiny:v1.4.23
     version: v1.4.20
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
@@ -27,7 +27,7 @@ oai-udr:
   weight: 1
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: gitops3.jfrog.io/open5gs/udr           ## The image will be pulled from dockerhub
+    repository: pavan176/oai-udr:v1.2.6           ## The image will be pulled from dockerhub
     version: v1.4.25
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
@@ -42,7 +42,7 @@ oai-udm:
   weight: 2
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: gitops3.jfrog.io/open5gs/udm           ## The image will be pulled from dockerhub
+    repository: pavan176/oai-udm:v1.2.6           ## The image will be pulled from dockerhub
     version: v1.4.25
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
@@ -57,7 +57,7 @@ oai-ausf:
   weight: 3
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: gitops3.jfrog.io/open5gs/ausf           ## The image will be pulled from dockerhub
+    repository: pavan176/oai-ausf:latest           ## The image will be pulled from dockerhub
     version: v1.4.25
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
@@ -72,7 +72,7 @@ oai-amf:
   weight: 4
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: gitops3.jfrog.io/open5gs/amf           ## The image will be pulled from dockerhub
+    repository: pavan176/oai-amf:v1.2.16           ## The image will be pulled from dockerhub
     version: v1.4.20
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
@@ -119,7 +119,7 @@ oai-spgwu-tiny:
   weight: 5
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: gitops3.jfrog.io/open5gs/spgwu-tiny    ## The image will be pulled from dockerhub
+    repository: pavan176/oai-spgwu-tiny:v1.2.19    ## The image will be pulled from dockerhub
     version: v1.4.25
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
