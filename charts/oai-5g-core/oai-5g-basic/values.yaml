@@ -12,8 +12,8 @@ oai-nrf:
   weight: 0
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: pavan176/oai-nrf          ## The image will be pulled from dockerhub repo  gitops3.jfrog.io/open5gs/spgwu-tiny:v1.4.23
-    version: v1.2.6
+    repository: oaisoftwarealliance/oai-nrf          ## The image will be pulled from dockerhub repo  gitops3.jfrog.io/open5gs/spgwu-tiny:v1.4.23
+    version: latest
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -27,8 +27,8 @@ oai-udr:
   weight: 1
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: pavan176/oai-udr           ## The image will be pulled from dockerhub
-    version: v1.2.6
+    repository: oaisoftwarealliance/oai-udr           ## The image will be pulled from dockerhub
+    version: latest
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -42,8 +42,8 @@ oai-udm:
   weight: 2
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: pavan176/oai-udm           ## The image will be pulled from dockerhub
-    version: v1.2.6
+    repository: oaisoftwarealliance/oai-udm           ## The image will be pulled from dockerhub
+    version: latest
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -57,7 +57,7 @@ oai-ausf:
   weight: 3
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: pavan176/oai-ausf           ## The image will be pulled from dockerhub
+    repository: oaisoftwarealliance/oai-ausf           ## The image will be pulled from dockerhub
     version: latest
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
@@ -72,8 +72,8 @@ oai-amf:
   weight: 4
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: pavan176/oai-amf           ## The image will be pulled from dockerhub
-    version: v1.2.16
+    repository: oaisoftwarealliance/oai-amf           ## The image will be pulled from dockerhub
+    version: latest
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -119,8 +119,8 @@ oai-spgwu-tiny:
   weight: 5
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: pavan176/oai-spgwu-tiny    ## The image will be pulled from dockerhub
-    version: v1.2.19
+    repository: oaisoftwarealliance/oai-spgwu-tiny    ## The image will be pulled from dockerhub
+    version: latest
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
@@ -214,8 +214,8 @@ oai-smf:
   weight: 6
   kubernetesType: Vanilla #Openshift/Vanilla Vanilla for Upstream Kubernetes
   nfimage:  # image name either locally present or in a public/private repository
-    repository: pavan176/oai-smf           ## The image will be pulled from dockerhub
-    version: v1.2.31
+    repository: oaisoftwarealliance/oai-smf           ## The image will be pulled from dockerhub
+    version: latest
     # pullPolicy: IfNotPresent or Never or Always
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
