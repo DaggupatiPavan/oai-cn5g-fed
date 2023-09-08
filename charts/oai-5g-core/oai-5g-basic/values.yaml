@@ -29,7 +29,7 @@ oai-udr:
   nfimage:  # image name either locally present or in a public/private repository
     repository: pavan176/oai-udr           ## The image will be pulled from dockerhub
     version: v1.4.7
-    # pullPolicy: IfNotPresent or Never or Always
+    # pullPolicy: IfNotPresent or Never or Always run
     pullPolicy: IfNotPresent
   includeTcpDumpContainer: false #only for taking pcaps inside network function pod
   imagePullSecrets:
